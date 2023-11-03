@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:parse_server_sdk_flutter/parse_server_sdk_flutter.dart';
 
 void main() async{
-  final keyApplicationId = 'yIxSLVyBDODlMmlDqi6gTOgS8rB39iAvSHsmiuOD';
-  final keyClientKey = 'SVPbnKMqV2zeOTKr3iOkobgzmY7qLq0CaOwpmSVe';
+  final keyApplicationId = 'YOUR_APPLICATION_KEY_HERE';
+  final keyClientKey = 'YOUR_CLIENT_KEY_HERE';
   final keyParseServerUrl = 'https://parseapi.back4app.com';
   await Parse().initialize(keyApplicationId, keyParseServerUrl,
       clientKey: keyClientKey, debug: true);
