@@ -13,6 +13,7 @@ This app uses Back4App for the database, please create an account for the same. 
 Replace the application key and client keys in the code to connect your application to the database.
 
 final keyApplicationId = '**YOUR_APPLICATION_KEY_HERE**';
+
 final keyClientKey = '**YOUR_CLIENT_KEY_HERE**';
 
 Clone the repository and go to the project folder in the command line.
